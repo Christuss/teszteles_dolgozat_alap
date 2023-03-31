@@ -108,7 +108,7 @@
         });
       });
       QUnit.test('19. masodfokuEgyenletMegoldasa(1, 0, 1)', function(assert) {
-        assert.equal(masodfokuEgyenletMegoldasa(1, 0, 0), {
+        assert.equal(masodfokuEgyenletMegoldasa(1, 0, 1), {
             X1: "komlex",
             X2: "komplex"
         });
